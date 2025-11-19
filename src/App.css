@@ -1,0 +1,65 @@
+/* Remove default margins */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center everything EXACTLY in the middle */
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    /* vertical center */
+  align-items: center;         /* horizontal center */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 25px;
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  margin-bottom: 20px;  /* spacing above button */
+}
+
+/* Question text */
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Answer text */
+.answer {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #444;
+}
+
+/* Button */
+.btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #005fcc;
+}
